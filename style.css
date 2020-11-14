@@ -1,0 +1,44 @@
+body {
+    background-color: #FAEBD7;
+}
+.container {
+    text-align: center;
+    position: relative;
+    top: 20vh;
+}
+.white-keys kbd {
+    display: inline-block;
+    background-color: #FFF;
+    height: 500px;
+    width: 100px;
+    border-style: outset;
+    border-color: gray(0.7);
+    margin-left: -6px;
+    position: relative;
+    z-index: 0;
+    line-height: 900px;
+    font-size: 3.5em;
+    font-family: 'Roboto Slab', serif;
+}
+.black-keys kbd {
+    display: inline-block;
+    background-color: #000;
+    height: 300px;
+    width: 80px;
+    border-style: outset;
+    border-color: gray(0.7);
+    margin-left: -10px;
+    position: relative;
+    top: -505px;
+    z-index: 1;
+    line-height: 520px;
+    font-size: 2.5em;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+.black-keys  kbd + kbd {
+    margin-left: 15px;
+}
+#eKey + #tKey {
+    margin-left: 115px;
+}
